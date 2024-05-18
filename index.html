@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Signup Page</title>
+    <link rel="stylesheet" href="header-body.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            Issue Tracking System
+        </div>
+    </header>
+    <main>
+        <div class="box">
+            <h1>Welcome!</h1>
+            <div class="login-signup-container">
+                <div class="login-box">
+                    <form action="/login" method="POST">
+
+                            <div class = "id-container">
+                                <label for="login-id">ID:</label>
+                                <input type="text" id="login-id" name="login-id" required>
+                            </div>
+                            <div class = "pw-container">
+                                <label for="login-password">Password:</label>
+                                <input type="password" id="login-password" name="login-password" required>
+                            </div>
+                     
+                        <button type="submit">로그인하기</button>
+                    </form>
+                </div>
+                <div class="signup-box">
+                    <h2>첫 방문이신가요?</h2>
+                    <a class="signup" href="./signup.html">
+                        <button>회원가입하기</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

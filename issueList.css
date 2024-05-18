@@ -1,0 +1,62 @@
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-left: none;
+    background-color: #555;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #666;
+}
+
+.user-icon {
+    display: flex;
+    align-items: center;
+}
+
+.user-icon img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+.issue-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.issue-item {
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.issue-item h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+}
+
+.issue-item p {
+    margin: 0;
+    font-size: 1em;
+}

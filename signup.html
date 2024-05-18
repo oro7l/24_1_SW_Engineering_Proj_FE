@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="header-body.css">
+    <link rel = "stylesheet" href = "../styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            Issue Tracking System
+        </div>
+    </header>
+    <main>
+    <div class = "box">
+        <div class = "login-signup-container">
+            <div class = "login-box">
+                <form action="/login" method="POST">
+                    
+                    <h2>정보를 입력해주세요</h2>
+                    <div class = "id-container">
+                        <div>ID:</div>
+                        <input type="text" name="username" placeholder="Username" required>
+                    </div>    
+                    <div class = "pw-container">
+                        <div>PW:</div>
+                        <input type="password" name="password" placeholder="Password" required>
+                    </div>
+                    <div class = "pw-container">
+                        <div>Username:</div>
+                        <input type="username" name="username" placeholder="Username" required>
+                    </div>
+
+                </form>
+        
+                <a class="signup" href="./signup.html">
+                    <button>회원 가입</button>
+                </a>
+                
+            </div>
+       
+        </div>
+    </div>
+    </main>
+    
+</body>
+</html>

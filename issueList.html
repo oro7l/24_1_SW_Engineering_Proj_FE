@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IssueList</title>
+    <link rel="stylesheet" href="header-body.css">
+    <link rel="stylesheet" href="issueList.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            Issue Tracking System
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="이슈들에 대해 검색해보세요">
+            <button type="button">Search</button>
+        </div>
+        <div class="user-icon">
+            <a href="mypage.html">
+                <img src="user-icon.png" alt="User Icon">
+            </a>
+        </div>
+    </header>
+    <nav>
+        <h2>
+            <button class="nav-btn" onclick="viewRecentIssues()">View Recent Issues</button>
+        </h2>
+        <h2>
+            <button class="nav-btn" onclick="createIssue()">Create Issue</button>
+
+        </h2>
+    </nav>
+    <main>
+        <div class="box">
+            <div class="box">
+                <h2>Issues</h2>
+                <div class="issue-list">
+                    <div class="issue-item">
+                        <h3>Issue Title 1</h3>
+                        <p>Issue description 1...</p>
+                    </div>
+                    <div class="issue-item">
+                        <h3>Issue Title 2</h3>
+                        <p>Issue description 2...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
