@@ -1,0 +1,19 @@
+.project-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items : flex-start;
+    flex-wrap: wrap
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width : 200px;
+    height: 200px;
+    margin: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
